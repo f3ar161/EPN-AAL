@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+        <script src="app.js"></script>
+        
+</head>
+    <body ng-app="Usuarios" ng-controller="Usuario">
+            <div ng-repeat="usuario in usuarios">
+                <h1>nombre: {{ usuario.nombre  }}</h1>
+                <p>password: {{ usuario.password}}</p>
+                <p>id: {{ usuario.id}}</p>
+                <p>actualizado: {{ usuario.updatedAt}}</p>
+                <p>creado:{{ usuario.createdAt}}</p>
+            </div>
+    </body>
+</html>
+    
+
+
+
+
+
+
+
+
+
+
+
